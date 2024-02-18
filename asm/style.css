@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.bg-warning{
+    background: yellow;
+}
+.bg-success{
+    background: greenyellow;
+}
+.bg-info{
+    background: burlywood;
+}
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.search-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border: 1px solid #4CAF50;
+    outline: none;
+}
+.btn {
+    /* CSS cho lớp btn */
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+}
+
+.btn-primary {
+    /* CSS cho lớp btn-primary */
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn:hover {
+    /* CSS cho lớp btn khi hover */
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    /* CSS cho lớp btn-primary khi hover */
+    background-color: #0b8412;
+}
+.btn-success {
+    background-color: #2ecc71;
+    color: #fff;
+    font-weight: bold;
+}
+.btn-success:hover {
+    background-color: #27ae60;
+}
+.text-center{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.btn-info {
+    background-color: #2ecc71;
+    border-radius: 10px;
+    color: black;
+}
+.btn-info:hover {
+    background-color: #27ae60;
+}
+.btn-danger{
+    background: red;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
